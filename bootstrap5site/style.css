@@ -1,0 +1,33 @@
+.nav-item.ms-1 {
+  margin-left: ($spacer * 0.25) !important;
+}
+
+.header {
+  background-color: rgb(252, 225, 252);
+}
+
+.site-header {
+  background-color: rgb(180, 240, 180);
+}
+.container1 {
+  padding: 20;
+}
+
+.footer {
+  background-color: lavender;
+}
+.d-flex {
+  background-color: rgb(180, 240, 180);
+}
+
+.social-media nav {
+  color: aquamarine;
+  font-size: 40px;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.bi {
+  padding: 5px;
+  color: #2c3e50;
+}
