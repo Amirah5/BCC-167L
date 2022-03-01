@@ -1,0 +1,85 @@
+.bi-bi-cart4 {
+  padding-right: 20px;
+}
+
+.home-image1 {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.intro-para {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.feature1-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 10%;
+}
+
+.first-image {
+  display: flex;
+  border-radius: 60px;
+  padding-right: 10px;
+}
+
+.feature2-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 120px;
+}
+
+.second-image {
+  display: flex;
+  border-radius: 20%;
+  padding-left: 10px;
+}
+
+.feature3-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 60px;
+}
+
+.third-image {
+  display: flex;
+  border-radius: 20%;
+  padding-left: 30px;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.shop-candle {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-left: 7%;
+}
+
+.footer {
+  background-color: whitesmoke;
+}
+
+.social-media nav {
+  font-size: 60px;
+  padding-top: 10px;
+}
+
+.bi {
+  padding: 5px;
+  color: #2c3e50;
+}
