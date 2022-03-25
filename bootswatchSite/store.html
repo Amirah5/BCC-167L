@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/morph/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="store.js" async></script>
+        
+    <title>My First Bootswatch Site</title>
+  </head>
+  <body style="min-height: 1000px;">
+       
+    <p>Free Shipping on $25 or above</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ati's SoyCandles</a>
+        <img class="img-fluid"
+              src="images/logo-modified.png"
+              alt="" width="72" height="72"
+          />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor03"
+          aria-controls="navbarColor03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav-Bar -->
+
+        <div class="collapse navbar-collapse" id="navbarColor03">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a href="index.html"><button type="button" class="btn btn-light">Home</button></a>
+            </li>
+            <li class="nav-item">
+              <a href="Shop-Candles.html"><button type="button" class="btn btn-light">Shop Candles</button></a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html"> <button type="button" class="btn btn-light" >About</button></a>
+            </li>
+            <li class="nav-item">
+              <a href="store.html"><button type="button" class="btn btn-light">Store</button></a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html"><button type="button" class="btn btn-light">Contact</button></a>
+            </li>
+
+            <!-- Dropdown -->
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Products</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Home</a>
+                <a class="dropdown-item" href="#">Shop Candles</a>
+                <a class="dropdown-item" href="#">About</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Contact</a>
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  <!-- Main-heading -->
+  <div class="container">
+    <div class="container jumbotron bg-lightgray text-center mt-3 p-4 rounded">
+      <h1> Craftly Molded Soy Candles</h1>
+      <h4>Bio-Friendly Renewable </h4>
+     </div>
+  </div>
+
+  <div class="about-image col-md-12" style="background-color:
+lightblue">
+  <h2> Shopping Cart</h2>  
+      <img class="img-fluid"
+        src="images/pexels-lauraRE-james-6101987_ccexpress 
+(1)_ccexpress.jpeg"
+        alt="" width="72" height="72"
+    />
+  </div>
+  <div class="cart-items">
+  <div class="index-row">
+    <span class="index-item">ITEM</span>
+    <span class="index-item">PRICE</span>
+    <span class="index-item">QUANTITY</span>
+  </div>
+  <div class="index-row">
+    <img src="images/samira-rahi-KA7iQKPTk4w-unsplash_ccexpress.jpeg" width="80" height="80" >
+  <span class="cart-item">Country Spice</span>
+  <span class="cart-item">$10.50</span>
+  <input type="number" value="1" class="cart-item"> </input>
+  <button role="button" class="btn-remove">Remove</button>
+  </div>
+
+  <div class="index-row">
+    <img src="images/jose-antonio-hernandez-CZ0-q8Xto6I-unsplash_ccexpress.jpeg" width="80" height="80" >
+  <span class="cart-item">Charmington Cyprus Berry</span>
+  <span class="cart-item">$12.50</span>
+  <input type="number" value="1" class="cart-item"> </input>
+  <button role="button" class="btn-remove">Remove</button>
+  </div>
+
+  <div class="index-row">
+    <img src="images/girl-with-red-hat-hTJfY-_UV50-unsplash_ccexpress.jpeg" width="80" height="80" >
+  <span class="cart-item">Rosy Girl with Red Hat</span>
+  <span class="cart-item">$14.50</span>
+  <input type="number" value="1" class="cart-item"> </input>
+  <button role="button" class="btn-remove">Remove</button>
+  </div>
+
+  <div class="index-row">
+    <img src="images/hanna-balan-zvrUBJfPdKk-unsplash_ccexpress.jpeg" width="80" height="80" >
+  <span class="cart-item">Lavender Jasmine Harmoney</span>
+  <span class="cart-item">$8.50</span>
+  <input type="number" value="1" class="cart-item"> </input>
+  <button role="button" class="btn-remove">Remove</button>
+  </div>
+
+  <div class="index-row">
+    <img src="images/elena-kloppenburg-EYauht8wrK0-unsplash_ccexpress.jpeg" width="80" height="80" >
+  <span class="cart-item">Amber Vanilla</span>
+  <span class="cart-item">$8.50</span>
+  <input type="number" value="1" class="cart-item"> </input>
+  <button role="button" class="btn-remove">Remove</button>
+  </div>
+
+  <div class="index-row">
+    <img src="images/tijana-drndarski-_RfbgayXWOk-unsplash_ccexpress.jpeg" width="80" height="80" >
+  <span class="cart-item">Sea Salt and Orchid </span>
+  <span class="cart-item">$15.50</span>
+  <input type="number" value="1" class="cart-item"> </input>
+  <button role="button" class="btn-remove">Remove</button>
+  </div>
+
+  <div class="index-row">
+    <img src="images/pexels-laura-james-6102391_ccexpress.jpeg" width="80" height="80" >
+  <span class="cart-item">Sandal Wood Rose</span>
+  <span class="cart-item">$12.50</span>
+  <input type="number" value="1" class="cart-item"> </input>
+  <button role="button" class="btn-remove">Remove</button>
+  </div>
+
+  <div class="index-row">
+    <img src="images/pexels-laura-james-6101987_ccexpress.jpeg" width="80" height="80" >
+  <span class="cart-item">Fresh Bamboo</span>
+  <span class="cart-item">$10.50</span>
+  <input type="number" value="1" class="cart-item cart-quantity-input"> </input>
+  <button role="button" class="btn-remove">Remove</button>
+  </div>
+  </div>
+
+  <div class="cart-total">
+    <strong class="cart-total-title">Total</strong>
+    <span class="cart-total-price">$93.00</span>
+  </div>
+
+  <div>
+    <button role="button" class="btn-purchase">PURCHASE</button>
+  </div>
+
+
+  <hr>
+      <div class="about-image col-md-12" style="background-color: lightblue">
+        <h2> Checkout form</h2>  
+            <img class="img-fluid"
+              src="images/pexels-lauraRE-james-6101987_ccexpress (1)_ccexpress.jpeg"
+              alt="" width="72" height="72"
+          />
+        </div>
+
+        <div class="container">
+          <h4 class="mb-3">Billing Address</h4>
+          <form novalidate>
+            <div class="row g-3">
+              <div class="col-sm-4">
+              <label for="firstName"
+              class="form-label">First Name</label>
+              <input id="firstName" type="text"
+              class="form-control" placeholder="your first name" required>
+              <div class="invalid-feedback">
+              Valid first name is required.
+              </div>
+            </div>
+        
+            <div class="col-sm-4">
+              <label for="lastName"
+              class="form-label">Last Name</label>
+              <input id="lastName" type="text"
+              class="form-control" placeholder="your last 
+              name" required>
+              <div class="invalid-feedback">
+              Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-5">
+              <label for="username"
+              class="form-label">Username</label>
+              <div class="input-group">
+                <span class="input-group-text">@</span>           
+              <input id="username" type="text"
+              class="form-control" placeholder="user name" required>  
+              </div>
+              <div class="invalid-feedback">
+                Valid user name is required.
+              </div>
+            <div class="row g-3">
+            <div class="col-md-5">
+              <label for="country"
+              class="form-label">Country</label>
+              <select id="country" class="form-control">
+              <option value=" ">Choose...</option>
+              <option value="Australia">Australia</option>
+              <option value="USA">USA</option>
+              <option value="Canada">Canada</option>
+              <option value="China">China</option>
+              <option value="UK">UK</option>
+            </select>
+            <div class="invalid-feedback">
+              Valid country name is required.
+            </div>
+        </div>
+
+        <div class="col-md-4">
+          <label for="state"
+          class="form-label">State</label>
+          <select id="state" class="form-control">
+          <option value=" ">Choose...</option>
+          <option value="Australia">WA</option>
+          <option value="Australia">SA</option>
+          <option value="Australia">NT/option>                  
+          </select>
+          <div class="invalid-feedback">
+          Valid country name is required.
+          </div>
+        </div>
+
+          <div class="col-3">
+            <label for="postcode"
+            class="form-label">Postcode</label>
+            <input id="postcode" type="number"
+            class="form-control" placeholder="postcode" required>  
+            </div>
+            <div class="invalid-feedback">
+              Valid postcode is required.
+            </div>
+          <div>
+        </div>
+
+        <hr class="my-4">
+
+      <div class="col-12">
+        <div class="form-check">
+          <input id="sameAddress" type="checkbox" class="form-check-input">
+          <label class="form-check-label" for="sameAddress">Shipping address is same as billing address.</label>
+        </div>
+        <div class="form-check">
+        <input id="safeInfo" type="checkbox" class="form-check-input">
+        <label class="form-check-label" for="sameAddress">Save this info.</label>
+        </div>
+      </div>
+
+        <hr class="my-4">
+
+        <h4 class="mb-3">Payments</h4>
+
+        <div class="form-check">
+        <input id="creditCard" name="paymentMethod" type="radio" class="form-check-input" checked required>  
+        <label for="creditCard">Credit Card</label>    
+      </div>
+
+      <div class="form-check">
+        <input id="debitCard" name="paymentMethod" type="radio" class="form-check-input" checked
+        required>  
+        <label for="debittCard">Direct Debit Card</label>    
+      </div>
+
+      <div class="form-check">
+        <input id="PayPal" name="paymentMethod" 
+      type="radio" class="form-check-input" checked
+        required>  
+        <label for="PayPal">PayPal</label>
+      </div>
+
+      <div class="row my-3 gy-3">
+        <div class="col-md-6">
+          <label for="fullName"
+          class="form-label">
+          Name on card
+        <input id="fullName" type="text" class="form-control"> 
+        <small class="text-muted">
+          Full name as displayed on card.
+        </small>
+        <div class="invalid-feedback">
+          Name on card is required. 
+       </div>
+      </div>
+      <div class="col-md-6">
+        <label for="cc-number"
+        class=form-label>
+        Credit Card number
+        <input id="cc-number" type="text" class="form-control">
+      <div class="invalid-feedback">
+        Credit Card number is required.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="cc-expire"
+      class=form-label>
+      Expiration
+      <input id="cc-expire" type="text" 
+  class="form-control">
+    <div class="invalid-feedback">
+      Expiration is required.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="cc-cvv"
+    class=form-label>
+    CVV
+    <input id="cc-number" type="text" 
+class="form-control">
+  <div class="invalid-feedback">
+    CVV is required.
+  </div>
+</div>
+ </div>
+
+ <hr class="my-4">
+
+ <button class="btn btn-primary btn-md btn-block mb-5">Continue to Checkout</button>
+ 
+
+ </div>
+</form>
+</div>
+                  
+      </div>
+  </div>   
+
+     <!-- Footer -->
+     <div class="footer mt-2 p-2 rounded">
+
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 my-2 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="text-dark">© Copyright; 2022 Ati </span>
+        </div>
+  
+        <div class="social-media nav col-md-4 justify-content-end list-unstyled d-flex">
+
+          <a href="https://www.facebook.com/qami.gal.5/" target="_blank "> <i class="bi bi-facebook" style="font-size: 2rem;"></i></a>
+
+          <a href="https://www.twitter.com/qamigal" target="_blank"><i class="bi bi-twitter" style="font-size: 2rem;"></i></a>
+
+          <a href="https://www.linkedin.com/in/amirah-munad/" target="_blank"> <i class="bi bi-linkedin" style="font-size: 2rem;"></i></a>
+
+          <a href="https://www.youtube.com/channel/UCX-QFksaIM4rcrjvjhlqf5g" target="_blank"><i class="bi bi-youtube" style="font-size: 2rem;"></i></a>
+
+          <a href="https://www.slack.com" target="_blank"><i class="bi bi-slack" style="font-size: 2rem;"></i></a>
+  
+      </footer>
+
+     </div>
+
+    <!--: Bootstrap Core JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

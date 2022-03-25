@@ -1,0 +1,20 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "Open checkout.html",
+      "file": "c:\\Users\\rmuna\\Documents\\BCC-167L\\bootswatchSite\\checkout.html"
+    },
+    {
+      "name": "Launch Microsoft Edge and open the Edge DevTools",
+      "request": "launch",
+      "type": "vscode-edge-devtools.debug",
+      "url": "C:/Users/rmuna/Documents/BCC-167L/bootswatchSite/index.html" // Provide your project's url to finish configuring
+    }
+  ]
+}
