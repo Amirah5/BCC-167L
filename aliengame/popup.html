@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Popup</title>
+  </head>
+  <body>
+    <button data-popup-target="#popup">Open popup</button>
+    <div class="popup" id="popup">
+      <div class="popup-header">
+        <div class="title">Alien Jokes Which Will Rock Your World</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+
+      <div class="popup-content">
+        <ul>
+          <li>What's an alien's favourite part of a computer?</li>
+          <li>The space bar!</li>
+          <li>Why did the alien think the spaceship was so good?</li>
+          <li>It was out of this world!</li>
+          <li>What do aliens like to eat?</li>
+          <li>Unidentified frying objects!</li>
+          <li>Why don't aliens rate earth?</li>
+          <li>It only has one star</li>
+          <li>How do aliens organise a party?</li>
+          <li>They planet!</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
