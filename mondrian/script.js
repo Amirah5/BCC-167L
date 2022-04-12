@@ -1,7 +1,25 @@
+// /* create a specific function to address dpi */
+// function fix_dpi() {
+//   //create a style object that returns width and height
+//   let style = {
+//     height() {
+//       return +getComputedStyle(canvas).getPropertyValue("height").slice(0, -2);
+//     },
+//     width() {
+//       return +getComputedStyle(canvas).getPropertyValue("width").slice(0, -2);
+//     },
+//   };
+
+//   canvas.setAttribute("width", style.width() * dpi);
+//   canvas.setAttribute("height", style.height() * dpi);
+// }
+
 function draw() {
   var canvas = document.getElementById("canvas");
   if (canvas.getContext) {
     var ctx = canvas.getContext("2d");
+
+    // fix_dpi();
 
     ctx.fillStyle = "grey"; // house sidetop roof
     ctx.rect(250, 185, 265, 75);
@@ -13,6 +31,36 @@ function draw() {
 
     ctx.fillStyle = "grey"; //front door
     ctx.fillRect(115, 310, 75, 185);
+
+    ctx.fillStyle = "grey"; //cloud
+    ctx.beginPath();
+    ctx.arc(480, 50, 30, 0, Math.PI * 2, true); //circle
+    ctx.fill();
+
+    ctx.fillStyle = "grey"; //cloud
+    ctx.beginPath();
+    ctx.arc(520, 50, 30, 0, Math.PI * 2, true); //circle
+    ctx.fill();
+
+    ctx.fillStyle = "grey"; //cloud
+    ctx.beginPath();
+    ctx.arc(540, 30, 30, 0, Math.PI * 2, true); //circle
+    ctx.fill();
+
+    ctx.fillStyle = "grey"; //cloud
+    ctx.beginPath();
+    ctx.arc(680, 60, 30, 0, Math.PI * 2, true); //circle
+    ctx.fill();
+
+    ctx.fillStyle = "grey"; //cloud
+    ctx.beginPath();
+    ctx.arc(730, 60, 30, 0, Math.PI * 2, true); //circle
+    ctx.fill();
+
+    ctx.fillStyle = "grey"; //cloud
+    ctx.beginPath();
+    ctx.arc(705, 30, 30, 0, Math.PI * 2, true); //circle
+    ctx.fill();
 
     ctx.fillStyle = "yellow"; //door knob
     ctx.beginPath();
@@ -155,5 +203,10 @@ function draw() {
     ctx.fillStyle = ""; // marking on road representing mondrian
     ctx.rect(1190, 735, 265, 35);
     ctx.fill();
+
+    ctx.font = "30px Arial";
+    ctx.fillStyle = "red";
+    ctx.textAlign = "center";
+    ctx.fillText("My Mondrian Inspired Design");
   }
 }
