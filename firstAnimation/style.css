@@ -1,0 +1,11 @@
+Canvas {
+  border: 1px solid black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b9d6f2;
+  background-image: url("https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png");
+  background-size: cover;
+}

@@ -34,21 +34,6 @@ function draw() {
 
     ctx.fillStyle = "grey"; //cloud
     ctx.beginPath();
-    ctx.arc(480, 50, 30, 0, Math.PI * 2, true); //circle
-    ctx.fill();
-
-    ctx.fillStyle = "grey"; //cloud
-    ctx.beginPath();
-    ctx.arc(520, 50, 30, 0, Math.PI * 2, true); //circle
-    ctx.fill();
-
-    ctx.fillStyle = "grey"; //cloud
-    ctx.beginPath();
-    ctx.arc(540, 30, 30, 0, Math.PI * 2, true); //circle
-    ctx.fill();
-
-    ctx.fillStyle = "grey"; //cloud
-    ctx.beginPath();
     ctx.arc(680, 60, 30, 0, Math.PI * 2, true); //circle
     ctx.fill();
 

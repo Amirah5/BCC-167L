@@ -1,0 +1,10 @@
+Canvas {
+  border: 1px solid black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b9d6f2;
+  background-size: cover;
+}
