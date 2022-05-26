@@ -4,11 +4,11 @@ let incrementorX = 0;
 let incrementorY = 0;
 //x and y starting point from where it will be incrementing
 
-let x = 200;
-let y = 200;
+let x = 200; //x-coordinate
+let y = 200; //y-coordinate
 let radius = 35;
-let speedX = 3;
-let speedY = 3;
+let speedX = 3; //velocity in horizontal direction
+let speedY = 3; //velocity in vertical direction
 
 window.onload = function () {
   canvas = document.getElementById("animationCanvas");
@@ -19,7 +19,7 @@ window.onload = function () {
 };
 
 function animate() {
-  ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+  ctx.clearRect(0, 0, window.innerWidth, window.innerHeight); //to clear the canvas everytime we request the frame
 
   incrementorX = incrementorX + speedX;
   incrementorY = incrementorY + speedY;
@@ -28,8 +28,6 @@ function animate() {
   ctx.fillStyle = "cyan";
   ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
 
-  x += speedX;
-  y += speedY;
   //Circle
   ctx.beginPath();
   ctx.arc(300, y, radius, 0, Math.PI * 2, false);

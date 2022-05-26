@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "..\\..\\my-react-app"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "BCC-167L"
+  }
+}

@@ -1,0 +1,11 @@
+Canvas {
+  border: 1px solid rgb(255, 253, 253);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b9d6f2;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.2.1387887749.1636675200");
+  background-size: cover;
+}
